@@ -2,7 +2,7 @@
 
 > Webpack2 based boilerplate for producing libraries (Input: ES6, Output: universal library)
 
-Heavily inspired in [webpack-library-starter](https://github.com/krasimir/webpack-library-starter).
+Forked from [webpack-library-starter](https://github.com/krasimir/webpack-library-starter).
 
 ## Features
 
