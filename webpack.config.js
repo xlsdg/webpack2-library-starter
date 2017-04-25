@@ -13,19 +13,19 @@ module.exports = function(env) {
   if (mode === 'build') {
     plugins.push(new UglifyJsPlugin({
       sourceMap: true,
-      beautify: false,
-      comments: false,
+      // beautify: false,
+      // comments: false,
+      // mangle: {
+      //   except: [],
+      //   screw_ie8: false,
+      //   keep_fnames: true
+      // },
       compress: {
-        warnings: false,
-        drop_console: true,
-        collapse_vars: true,
-        reduce_vars: true,
-        screw_ie8: false
-      },
-      mangle: {
-        except: [],
-        screw_ie8: false,
-        keep_fnames: true
+        // drop_console: true,
+        // collapse_vars: true,
+        // reduce_vars: true,
+        // screw_ie8: false,
+        warnings: false
       }
     }));
     outputFile = libraryName + '.min.js';
